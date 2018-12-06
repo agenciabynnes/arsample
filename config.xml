@@ -26,7 +26,7 @@
 <plugin name="cordova-plugin-device" spec="latest"/>
 <plugin name="wikitude-cordova-plugin" spec="latest"/>
 <plugin name="cordova-plugin-whitelist" spec="latest"/>
-</widget>
+
 <platform  name="ios">
     <!-- below requires the splash screen plugin -->
     <!-- docs: https://github.com/apache/cordova-plugin-splashscreen -->
