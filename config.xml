@@ -17,14 +17,13 @@
     <access origin="*"/>
 </platform>
 <preference name="phonegap-version" value="cli-6.5.0" />
-<preference name="xwalkMultipleApk" value="false" />
 
 <plugin name="cordova-plugin-statusbar" spec="2.1.3"/>
 <plugin name="cordova-plugin-splashscreen" spec="3.2.2"/>
 <plugin name="cordova-plugin-android-permissions" spec="^1.0.0"/>
 
 <plugin name="cordova-plugin-device" spec="latest"/>
-<plugin name="wikitude-cordova-plugin" spec="latest"/>
+<plugin name="com.wikitude.phonegap.WikitudePlugin" spec="https://github.com/Wikitude/wikitude-cordova-plugin" />
 <plugin name="cordova-plugin-whitelist" spec="latest"/>
 
 <platform  name="ios">
