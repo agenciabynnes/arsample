@@ -32,7 +32,7 @@
     <variable name="GEOLOCATION_USAGE_DESCRIPTION" value=" " />
 </plugin>
 <plugin name="cordova-plugin-inappbrowser" spec="latest" />
-<plugin name="cordova-plugin-inappbrowser-camera" spec="https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git" />
+
 <plugin name="cordova-plugin-whitelist" spec="latest"/>
 
 <platform  name="ios">
