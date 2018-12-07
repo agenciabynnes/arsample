@@ -36,6 +36,7 @@ var app = {
     // deviceready Event Handler
     onDeviceReady: function() {
         app.wikitudePlugin = cordova.require("com.wikitude.phonegap.WikitudePlugin.WikitudePlugin");
+        app.wikitudePlugin._sdkKey = "MBW+y6DOjcpE9oUXjtcvYL3QRz0E2pZTdf8kw2jWB0hDl2ndml7ckO3Bln109T+Tlh4OkhH4aXn7im92nGfDL/JPCWhAppeXmirsUONjQvKlgXxANvfOnuXNQu36cfDMePOZzpke6o0xYjVU+OTAArPHz5sNRN3i72mIpNb/KihTYWx0ZWRfX30Ub67JwtAX69G8arQ1odpFzEFlaiqZtT6Ozwjs6BICAsg04X0ZNkZVt28z3EACwT+0to+2bVTb1tio9MguvOqMf3yQ5WqpwlgqoJeEgWr4wuRwD6BtQyE2jljiV7hz1AW9YSRz6/kLYtQlOLJAr8wQdket5elEM49RFo6gWFFw5hagqlcwplWxDwC+Z9izBEYIFoMXgLZFwtEtzgPkMLpDhLisgf8iFYiEL6/YQ+ydic5fuaU/dglsQvK9kZy0QADESnLx69VAEHb2L8L8YaloPmFwoIBg9sRWSscLYaNF5b7mKuWrDUR7VCr83COW+/wnPZpsUpA5Y8NVOjD1TMbY1cTgM8mK/JKe9fqqwrqlW5F8jKnPP/jShRCMSZFijb34WRGMOB0mvnpudOl+nKAMUTNoDT183MYkvGcSXYPHhBAY0+rTS7bOll4Y+kHLkwDGb8LummyGjoE0Di1oV42YncBLqvGbF63eEd+zJeVScGyNE2Ha2Es=";
         // set a callback for android that is called once the back button was clicked.
         if ( cordova.platformId == "android" ) {
             app.wikitudePlugin.setBackButtonCallback(app.onBackButton);

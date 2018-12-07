@@ -24,6 +24,15 @@
 
 <plugin name="cordova-plugin-device" spec="latest"/>
 <plugin name="com.wikitude.phonegap.WikitudePlugin" spec="https://github.com/Wikitude/wikitude-cordova-plugin" />
+<plugin name="cordova-plugin-camera" spec="latest">
+    <variable name="CAMERA_USAGE_DESCRIPTION" value=" " />
+    <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value=" " />
+</plugin>
+<plugin name="cordova-plugin-geolocation" spec="latest">
+    <variable name="GEOLOCATION_USAGE_DESCRIPTION" value=" " />
+</plugin>
+<plugin name="cordova-plugin-inappbrowser" spec="latest" />
+<plugin name="cordova-plugin-inappbrowser-camera" spec="https://github.com/jverlee/cordova-plugin-inappbrowser-camera.git" />
 <plugin name="cordova-plugin-whitelist" spec="latest"/>
 
 <platform  name="ios">
@@ -55,7 +64,7 @@
 <preference name="AndroidPersistentFileLocation" value="Compatibility" />
 
 <platform name="android" >
-    <preference name="android-minSdkVersion" value="17"/>
+    <preference name="android-minSdkVersion" value="19"/>
     <preference name="android-targetSdkVersion" value="26"/>
     <preference name="android-installLocation" value="auto"/>
     <preference name="Fullscreen" value="false"/>
